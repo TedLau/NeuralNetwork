@@ -37,7 +37,7 @@ print('m1的逆矩阵:', m1.I)
 
 # 矩阵的视图
 # 可以通过.A将矩阵转为ndarray  使用下标会降低维度
-# 可以通过np.mat将ndarray转为矩阵
+# 可以通过np.mat将ndarray转为矩阵 
 print('m1的视图:', m1.A)
 
 
