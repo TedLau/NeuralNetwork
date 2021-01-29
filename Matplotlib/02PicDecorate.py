@@ -35,5 +35,6 @@ for i, j in zip(x, y):  # +0.5是为了控制高度
     plt.text(i, j + 0.5, '%d°C' % j)
 # 保存图片
 # plt.savefig('./name.png')
-plt.show()
+
 # 图形展示
+plt.show()

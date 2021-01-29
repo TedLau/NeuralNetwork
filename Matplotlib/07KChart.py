@@ -1,10 +1,11 @@
 # K线图 金融领域 股票走势
 # 开盘价 最高价 最低价 收盘价
+# 开盘 > 收盘 价格下跌 绿色表示
+# 开盘 < 收盘 价格上涨 红色表示
 
 import matplotlib.pyplot as plt
 import mpl_finance as mpl
-# 开盘 > 收盘 价格下跌 绿色表示
-# 开盘 < 收盘 价格上涨 红色表示
+
 import numpy as np
 import tushare as ts
 

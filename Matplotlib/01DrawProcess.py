@@ -9,6 +9,6 @@ plt.figure()
 
 x = np.arange(1, 8)
 y = np.array([11, 11, 14, 15, 16, 13, 12])
-plt.plot(x,y)
+plt.plot(x, y)
 plt.show()
 # 图形展示

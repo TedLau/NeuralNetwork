@@ -7,7 +7,7 @@ plt.rcParams['font.sans-serif'] = 'SimHei'
 plt.rcParams['axes.unicode_minus'] = False
 res = np.load('./gdp.npz', allow_pickle=True)
 print(res)
-
+# 打印里面的内容
 for i in res:
     print(i)
 

@@ -1,8 +1,8 @@
-import matplotlib.pyplot as plt
-import numpy as np
 
 # 可以用来对比部分与整体的关系也可以用来比较部分与部分的关系
 # plt.pie
+import matplotlib.pyplot as plt
+import numpy as np
 
 # 默认不支持中文  使其支持中文
 plt.rcParams['font.sans-serif'] = 'SimHei'
