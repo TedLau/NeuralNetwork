@@ -8,6 +8,7 @@ data = pd.read_excel('./qs.xlsx')
 print('data:\n', data)
 
 # 确定前后多少个数据来进行构建拉格朗日插值关系
+
 n = 5
 
 # 循环查看缺失值的位置

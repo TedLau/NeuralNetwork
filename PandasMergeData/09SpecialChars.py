@@ -10,6 +10,7 @@ import numpy as np
 # 先将特殊字符替换为可以处理的NaN字符
 
 # 加载数据
+
 data = pd.read_excel('./qs.xlsx')
 
 print('data:\n', data)

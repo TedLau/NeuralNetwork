@@ -64,6 +64,7 @@ print(detail.loc[:, 'amounts'])
 # 将数据映射到-1 - 1
 # 数据分布不变化、大依然大、小依然小
 
+
 # 实现小数标准化
 
 def desc_sca(data):

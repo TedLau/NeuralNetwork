@@ -1,6 +1,6 @@
 import pandas as pd
 import seaborn as sns
-
+ # 测试失败
 # 加载数据
 anscombe = sns.load_dataset('anscombe')
 print('anscombe:\n', anscombe)

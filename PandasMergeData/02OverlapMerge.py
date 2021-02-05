@@ -7,8 +7,8 @@ import pandas as pd
 df1 = pd.read_excel('./重叠合并数据.xlsx', index_col=0, sheet_name=0)
 df2 = pd.read_excel('./重叠合并数据.xlsx', index_col=0, sheet_name=1)
 print('df1:\n', df1)
-print('df2:\n', df2)
 
+print('df2:\n', df2)
 # df1:
 #      A  B    C
 # 0 NaN  3  4.0

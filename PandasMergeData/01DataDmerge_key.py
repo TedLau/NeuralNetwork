@@ -1,6 +1,6 @@
+import pandas as pd
 #  主键合并 mysql中数据库中外键连接
 # 根据键值进行数据合并
-import pandas as pd
 
 # 加载数据
 # df1 = pd.read_excel('./merge主键拼接数据.xlsx', index_col=0, sheet_name=0)
